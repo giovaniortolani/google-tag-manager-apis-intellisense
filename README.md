@@ -14,6 +14,10 @@ Google Tag Manager's custom templates run in a "sandboxed" JavaScript environmen
 
 These `.d.ts` files act as a guide for your editor. They define the signatures, parameters, and documentation for every GTM API, effectively teaching your editor how the GTM environment works.
 
+
+https://github.com/user-attachments/assets/868bbe2c-3e28-47b1-b195-cdfc509ec340
+
+
 ---
 
 ## How to Use
