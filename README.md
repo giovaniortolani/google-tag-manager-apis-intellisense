@@ -81,3 +81,8 @@ For other modern editors that use a Language Server Protocol (LSP) for JavaScrip
 2.  **Place the `.d.ts` file** in the root of your project folder.
 
 The language server should automatically detect and use the type definitions to provide IntelliSense.
+
+---
+
+## Authors
+Created and developed by **Giovani Ortolani Barbosa** ([LinkedIn](https://linkedin.com/in/giovani-ortolani-barbosa/), [GitHub](https://github.com/giovaniortolani)).
