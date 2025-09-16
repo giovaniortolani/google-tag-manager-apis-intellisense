@@ -480,6 +480,32 @@ declare module 'queryPermission' {
   export = queryPermission;
 }
 
+declare module 'readAnalyticsStorage' {
+  /**
+   * Retrieves the data stored for analytics and returns an object with client_id and sessions.
+   * @param cookieOptions Optional options for reading cookies with a specific `cookie_prefix`, `cookie_domain`, or `cookie_path`.
+   * @returns An object containing analytics storage data, or `undefined` if it cannot be read.
+   */
+  function readAnalyticsStorage(cookieOptions?: {
+    cookie_prefix?: string;
+    cookie_domain?: string;
+    cookie_path?: string;
+  }): {
+    /** A string representing the client ID used for analytics. */
+    client_id: string;
+    /** An array of objects containing information about current sessions. */
+    sessions: {
+      /** A string representing the measurement ID of the Analytics Destination. */
+      measurement_id: string;
+      /** A string representing the timestamp that identifies the current session. */
+      session_id: string;
+      /** A number representing the count of sessions that a user has started up to the current session. */
+      session_number: number;
+    }[];
+  } | undefined;
+  export = readAnalyticsStorage;
+}
+
 declare module 'readCharacterSet' {
   /**
    * Returns the value of `document.characterSet`.
