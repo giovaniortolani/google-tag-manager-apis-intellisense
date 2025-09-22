@@ -85,4 +85,10 @@ The language server should automatically detect and use the type definitions to 
 ---
 
 ## Authors
+
+For tag configuration examples, please refer to the [/examples](./examples) folder.
+
+---
+
+## Authors
 Created and developed by **Giovani Ortolani Barbosa** ([LinkedIn](https://linkedin.com/in/giovani-ortolani-barbosa/), [GitHub](https://github.com/giovaniortolani)).
