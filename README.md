@@ -84,7 +84,7 @@ The language server should automatically detect and use the type definitions to 
 
 ---
 
-## Authors
+## Examples
 
 For tag configuration examples, please refer to the [/examples](./examples) folder.
 
